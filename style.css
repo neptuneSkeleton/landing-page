@@ -130,3 +130,38 @@ ul {
       font-weight: 700;
   }
 
+.CTA-section {
+    margin: 50px 90px 50px 90px;
+    background-color: #3882f6;
+    display: flex;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+.CTA-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #e5e7eb;
+}
+.CTA-left p {
+    margin: 5px;
+}
+
+.CTA-left h3 {
+    margin: 5px;
+}
+
+.CTA-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CTA-right button {
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+}
+
