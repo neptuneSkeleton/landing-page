@@ -55,7 +55,7 @@ margin: 0px;
     justify-content: space-between;
     flex-basis: 400px;
     flex-grow: 0;
-    gap: 5px;
+    gap: 9px;
 }
 
 .hero img { 
@@ -83,14 +83,50 @@ ul {
   }
 
   .information {
-      display: flex;
-      justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px 90px 90px 90px
+  }
 
+.information-heading {
+    display: flex;
+    font-weight: 800;
+    color: #1f2937;
+    font-size: 36px;
+    justify-content: center;
+    padding: 30px 90px 30px 90px;
+}
+
+  .information-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 150px;
   }
 
   .information-item img {
     border: 5px solid #3882f6;
     border-radius: 8px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
+
+  .quote{
+    display: flex; 
+    flex-direction: column; 
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 90px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+  .name {
+      align-self: flex-end;
+      font-size: 20px;
+      font-weight: 700;
+  }
+
